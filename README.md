@@ -11,7 +11,7 @@ Under `~/.config/lvim/lua/KWS/`, you'll see two directories where their names ar
 `~/config/lvim/lua/KWS/core`  
 `~/config/lvim/lua/KWS/plugins`
 
-#### Core
+### Core
 In `core` directory, there are three major files which are `keymaps.lua`, `options.lua`, and `plugins.lua`.  
 - `keymaps.lua`  
 This is where you can set your keymaps for lvim.  
@@ -34,7 +34,7 @@ lvim uses its own config structure so you'll need to use the following line.
     ```
     For better understanding I recommend you to check out [LunarVim Plugins Docs](https://www.lunarvim.org/docs/plugins).
 
-#### Plugins
+### Plugins
 Here you can set up your own plugins since lvim already has set the default plugins. ([Core Plugins List](https://www.lunarvim.org/docs/plugins/core-plugins-list))  
 
 Setting up the plugins for your own taste isn't that hard if you've been migrated from neovim.  
