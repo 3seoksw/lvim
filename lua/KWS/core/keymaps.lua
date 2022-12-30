@@ -21,3 +21,6 @@ keymap("n", "<C-u>", "<C-u>zz", opts)
 keymap("n", "<\\>ll", ":VimtexCompile<CR>", opts)
 keymap("n", "<\\>li", ":VimtexInfo<CR>", opts)
 keymap("n", "<\\>lw", ":VimtexView<CR>", opts)
+
+-- Markdown Preview
+keymap("n", "<space>mm", ":MarkdownPreview <CR>", opts)
