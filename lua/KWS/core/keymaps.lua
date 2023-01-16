@@ -24,3 +24,7 @@ keymap("n", "<\\>lw", ":VimtexView<CR>", opts)
 
 -- Markdown Preview
 keymap("n", "<space>mm", ":MarkdownPreview <CR>", opts)
+
+-- Bufferline
+keymap("n", "<Tab>", "<Cmd>BufferLineCycleNext<CR>", opts)
+keymap("n", "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", opts)
