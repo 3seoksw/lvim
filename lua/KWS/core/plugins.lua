@@ -12,4 +12,5 @@ lvim.plugins = {
             require("nvim-ts-autotag").setup()
         end,
     },
+    { "terrastruct/d2-vim" },
 }
