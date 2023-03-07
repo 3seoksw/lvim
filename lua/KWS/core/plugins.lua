@@ -13,4 +13,5 @@ lvim.plugins = {
         end,
     },
     { "terrastruct/d2-vim" },
+    { "goerz/jupytext.vim" }, -- Jupyter Notebook Plugin
 }
