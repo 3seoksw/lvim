@@ -11,7 +11,7 @@ nvimtree.view = {
     mappings = {
         list = {
             { key = "s", action = "vsplit" },
-            { key = "u", action = "hsplit" },
+            { key = "u", action = "split" },
         },
     },
 }
