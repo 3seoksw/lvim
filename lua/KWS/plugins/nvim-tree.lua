@@ -1,17 +1,11 @@
 local nvimtree = lvim.builtin.nvimtree.setup
 
 vim.g.loaded = 1
+vim.g.loaded_netrwPlugin = 1
 
-nvimtree.update_focused_file.enable = true
+nvimtree.respect_buf_cwd = true
 nvimtree.update_cwd = true
-
-nvimtree.actions = {
-    open_file = {
-        window_picker = {
-            enable = false,
-        },
-    },
-}
+nvimtree.update_focused_file = { enable = true, update_cwd = true }
 
 nvimtree.view = {
     mappings = {
