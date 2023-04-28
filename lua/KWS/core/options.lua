@@ -1,4 +1,3 @@
-lvim.colorscheme = "tokyonight"
 local options = {
     number = true, -- enable line number
     relativenumber = true, -- enable relative line number
