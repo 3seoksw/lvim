@@ -5,3 +5,4 @@ reload "KWS.lsp.init"
 
 reload "KWS.plugins.nvim-tree"
 reload "KWS.plugins.vimtex"
+reload "KWS.plugins.colourizer"
