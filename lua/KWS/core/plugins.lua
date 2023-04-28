@@ -16,4 +16,5 @@ lvim.plugins = {
     { "goerz/jupytext.vim" }, -- Jupyter Notebook Plugin
     { 'norcalli/nvim-colorizer.lua' },
     { 'catppuccin/nvim' },
+    { 'AlexvZyl/nordic.nvim' },
 }
