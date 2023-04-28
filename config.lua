@@ -2,7 +2,7 @@ reload "KWS.core.options"
 reload "KWS.core.plugins"
 reload "KWS.core.keymaps"
 reload "KWS.lsp.init"
-reload "KWS.colourschmes.nordic"
+reload "KWS.colourschmes.catppuccin"
 
 reload "KWS.plugins.lualine"
 reload "KWS.plugins.nvim-tree"
