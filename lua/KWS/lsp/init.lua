@@ -7,3 +7,5 @@ formatters.setup {
         filetypes = { "html", "css", "javascript", "javascriptreact" },
     },
 }
+
+require 'lspconfig'.clangd.setup {}
